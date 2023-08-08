@@ -1,0 +1,29 @@
+PATH
+  remote: .
+  specs:
+    rates (0.1.0)
+      net-http (~> 0.2.0)
+      thor (~> 1.2.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    io-wait (0.2.1)
+    net-http (0.2.0)
+      net-protocol
+      uri
+    net-protocol (0.1.2)
+      io-wait
+      timeout
+    thor (1.2.1)
+    timeout (0.2.0)
+    uri (0.11.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  rates!
+
+BUNDLED WITH
+   2.3.25
